@@ -3,6 +3,12 @@ public class Pyramid {
     double palas;
     double lalas;
     double tinggi;
+
+    public Pyramid() {
+        palas=9;
+        lalas=4;
+        tinggi=10;
+    }
     
     void cetakInfo(){
         System.out.println("======================");
