@@ -17,4 +17,8 @@ public class Pyramid {
         volume=(palas*lalas*tinggi)/3;
         return volume;
     }
+    
+    void cetakVolume(){
+        System.out.println("Volumenya adalah : "+hitungVolume());
+    }
 }

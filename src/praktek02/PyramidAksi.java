@@ -9,5 +9,6 @@ public class PyramidAksi {
         
         p1.cetakInfo();
         System.out.println("Volume Pyramid = "+p1.hitungVolume());
+        p1.cetakVolume();
     }
 }
