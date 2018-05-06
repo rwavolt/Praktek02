@@ -6,5 +6,7 @@ public class PyramidAksi {
         p1.palas = 6;
         p1.lalas = 5;
         p1.tinggi = 7;
+        
+        p1.cetakInfo();
     }
 }
