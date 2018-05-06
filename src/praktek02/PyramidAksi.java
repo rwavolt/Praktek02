@@ -10,5 +10,11 @@ public class PyramidAksi {
         p1.cetakInfo();
         System.out.println("Volume Pyramid = "+p1.hitungVolume());
         p1.cetakVolume();
+        
+        Pyramid p2 = new Pyramid();
+        p2.cetakInfo();
+        
+        Pyramid p3 = new Pyramid(7,8,9);
+        p3.cetakInfo();
     }
 }

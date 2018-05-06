@@ -9,6 +9,14 @@ public class Pyramid {
         lalas=4;
         tinggi=10;
     }
+
+    public Pyramid(double palas, double lalas, double tinggi) {
+        this.palas = palas;
+        this.lalas = lalas;
+        this.tinggi = tinggi;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("======================");
