@@ -11,5 +11,10 @@ public class Pyramid {
         System.out.println("Tinggi       : "+tinggi);
         System.out.println("======================");
     }
-    
+ 
+    double hitungVolume(){
+        double volume;
+        volume=(palas*lalas*tinggi)/3;
+        return volume;
+    }
 }

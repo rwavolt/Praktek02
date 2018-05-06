@@ -8,5 +8,6 @@ public class PyramidAksi {
         p1.tinggi = 7;
         
         p1.cetakInfo();
+        System.out.println("Volume Pyramid = "+p1.hitungVolume());
     }
 }
